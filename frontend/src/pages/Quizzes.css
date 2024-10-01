@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #f4f6f9; /* Light background */
+    color: #333;
+  }
+  
+  /* Container for quizzes */
+  .quizzes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+  }
+  
+  /* Grid Layout for topics */
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Topic box design */
+  .topic-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Unique Colors for each topic */
+  .topic-box:nth-child(1) {
+    background-color: #e74c3c; /* Red for Technology */
+    color: #fff;
+  }
+  
+  .topic-box:nth-child(2) {
+    background-color: #3498db; /* Blue for Mathematics */
+    color: #fff;
+  }
+  
+  .topic-box:nth-child(3) {
+    background-color: #2ecc71; /* Green for Literature */
+    color: #fff;
+  }
+  
+  .topic-box:nth-child(4) {
+    background-color: #f39c12; /* Orange for Geography */
+    color: #fff;
+  }
+  
+  /* Hover effect for topic boxes */
+  .topic-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Topic Header */
+  .topic-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .topic-header:hover {
+    color: #fff; /* Hover color for text */
+  }
+  
+  /* Subtopics container */
+  .subtopics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  /* Subtopic Link */
+  .subtopic-box {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .subtopic-box:hover {
+    background-color: #dcdde1;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .topic-header {
+      font-size: 1.5rem;
+    }
+  
+    .subtopic-box {
+      font-size: 1rem;
+    }
+  }
+  

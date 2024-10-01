@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #f4f6f9; /* Light background for the body */
+  }
+  
+  /* Subtopic Container */
+  .subtopic-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark color for the title */
+  }
+  
+  /* Subtopics List */
+  .subtopics-list {
+    display: grid; /* Grid layout for subtopics */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Subtopic Box */
+  .subtopic-box {
+    background-color: #2980b9; /* Primary color for subtopic boxes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow effect */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transitions */
+  }
+  
+  /* Hover Effect for Subtopic Box */
+  .subtopic-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    background-color: #3498db; /* Change color on hover */
+  }
+  
+  /* Subtopic Link */
+  .subtopic-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* White text color */
+    font-size: 1.5rem; /* Font size for links */
+    text-align: center; /* Centered text */
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Smaller title on mobile */
+    }
+  
+    .subtopic-link {
+      font-size: 1.2rem; /* Smaller links on mobile */
+    }
+  }
+  

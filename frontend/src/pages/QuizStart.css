@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #f4f6f9; /* Light background for the body */
+  }
+  
+  /* Quiz Start Container */
+  .quiz-start-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  /* Title */
+  .quiz-title {
+    font-size: 2.5rem;
+    color: #2c3e50; /* Dark color for the title */
+    margin-bottom: 20px;
+  }
+  
+  /* Start Section Text */
+  .start-text {
+    font-size: 1.2rem;
+    color: #34495e; /* Slightly lighter text color */
+    margin-bottom: 30px;
+  }
+  
+  /* Start Button */
+  .start-button {
+    background-color: #2980b9; /* Primary button color */
+    color: white; /* Button text color */
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth transitions */
+  }
+  
+  .start-button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  /* Proceed Link Style */
+  .proceed-link {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Proceed to Quiz Button */
+  .go-to-quiz-button {
+    background-color: #27ae60; /* Green color for proceeding button */
+    color: white; /* Button text color */
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth transitions */
+  }
+  
+  .go-to-quiz-button:hover {
+    background-color: #2ecc71; /* Lighter green on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .quiz-title {
+      font-size: 2rem; /* Smaller title on mobile */
+    }
+  
+    .start-text {
+      font-size: 1rem; /* Smaller text on mobile */
+    }
+  
+    .start-button,
+    .go-to-quiz-button {
+      font-size: 1rem; /* Smaller buttons on mobile */
+      padding: 10px 15px; /* Smaller padding on mobile */
+    }
+  }
+  
