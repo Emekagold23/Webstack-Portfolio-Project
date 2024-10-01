@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Virtual environment folder
+env/
+venv/
+
+# Node modules (React dependencies)
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files (optional)
+.vscode/
+.idea/
+
+# Environment variables
+*.env
+
+# Static files (if generated)
+staticfiles/
+
+# Media files (optional, depending on your setup)
+media/
+
+# Coverage reports (optional)
+coverage/
+
+# Database (optional if using SQLite, since it's a local file)
+db.sqlite3
+
+# npm debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache files
+.pnpm-store/
+.cache/
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+
+# Temporary files
+*.log
+*.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
