@@ -1,0 +1,44 @@
+# Core Django Framework
+Django==4.2.3
+
+# Django REST Framework for building APIs
+djangorestframework==3.14.0
+
+# CORS handling for cross-origin requests
+django-cors-headers==3.14.0
+
+# Geolocation and mapping functionality
+geopy==2.4.0
+
+# Handling HTTP requests
+requests==2.28.2
+
+# PostgreSQL database adapter (use the appropriate adapter for your database)
+psycopg2-binary==2.9.6
+
+# WSGI server for production
+gunicorn==20.1.0
+
+# Environment variable management
+django-environ==0.8.2
+
+# Image handling and processing
+Pillow==10.0.0
+
+# Twilio for SMS functionality
+twilio==7.14.0
+
+# Real-time features and WebSocket support
+channels==4.0.0
+
+# If you plan to use Redis for Channels
+redis==5.0.0
+
+# For handling form and file uploads (if necessary)
+django-formtools==2.4
+
+# Django Debug Toolbar for development (optional)
+django-debug-toolbar==4.0.0
+
+# For advanced querying and search capabilities (optional)
+django-filter==23.1.0

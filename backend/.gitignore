@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+env/
+venv/
+
+# Ignore sensitive files
+.env
+*.env
+
+# Ignore any system-specific files
+__pycache__/
+*.py[cod]
+.DS_Store
+*.sqlite3
